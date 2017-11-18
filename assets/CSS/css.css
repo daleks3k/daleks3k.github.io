@@ -1,0 +1,65 @@
+body
+{
+}
+
+html
+{
+  background:url("../pics/bg3.png")no-repeat center center fixed;
+  background-size: cover;
+}
+#main
+{
+width:510px;
+height:auto;
+margin-left: 38%;
+margin-right: auto;
+}
+
+#search
+{
+width:440px;
+height:auto;
+margin-left: 38%;
+margin-right: auto;
+margin-top:6%;
+background-color: rgba(115,104,167,0.2);
+}
+
+#content
+{
+width:440px;
+height:auto; 
+float:left;
+background-color: rgba(115,104,167,0.2);
+}
+
+#link
+{
+text-align: center;
+padding-left:20px;
+line-height:40px;
+letter-spacing:1px;
+color: rgba(218,173,216,1);
+font-size: 20px;
+text-decoration:none;
+font-family: 'Oxygen Mono', monospace;
+}
+
+.p{
+font-family: 'Oxygen Mono', monospace;
+font-size:64px;
+text-align:center;
+color: rgba(218,173,216,1);
+margin-right: auto;
+margin-bottom: auto; 
+margin-top: auto;
+}
+
+.searchbar{
+width: 400px;
+margin-left:20px;
+background: rgba(151,162,226,0.5); color: rgba(218,173,216,1);
+border: 0; border-radius: 1px;
+font-family: 'Oxygen Mono', monospace; font-size: 12pt;
+padding: 4px 0px; height: 24px;
+}
