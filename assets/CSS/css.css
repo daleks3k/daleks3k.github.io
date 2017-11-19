@@ -4,9 +4,10 @@ body
 
 html
 {
-  background:url("../pics/bg3.png")no-repeat center center fixed;
+  background:url("../pics/bg11.jpg")no-repeat center center fixed;
   background-size: cover;
 }
+
 #main
 {
 width:510px;
@@ -22,7 +23,7 @@ height:auto;
 margin-left: 38%;
 margin-right: auto;
 margin-top:6%;
-background-color: rgba(115,104,167,0.2);
+background-color: rgba(253,207,210,0.4);
 }
 
 #content
@@ -30,16 +31,16 @@ background-color: rgba(115,104,167,0.2);
 width:440px;
 height:auto; 
 float:left;
-background-color: rgba(115,104,167,0.2);
+background-color: rgba(253,207,210,0.4);
 }
 
 #link
 {
-text-align: center;
+text-align:left;
 padding-left:20px;
 line-height:40px;
 letter-spacing:1px;
-color: rgba(218,173,216,1);
+color: rgba(144,126,148,1);
 font-size: 20px;
 text-decoration:none;
 font-family: 'Oxygen Mono', monospace;
@@ -49,7 +50,8 @@ font-family: 'Oxygen Mono', monospace;
 font-family: 'Oxygen Mono', monospace;
 font-size:64px;
 text-align:center;
-color: rgba(218,173,216,1);
+color:rgba(144,126,148,1);
+
 margin-right: auto;
 margin-bottom: auto; 
 margin-top: auto;
@@ -58,7 +60,7 @@ margin-top: auto;
 .searchbar{
 width: 400px;
 margin-left:20px;
-background: rgba(151,162,226,0.5); color: rgba(218,173,216,1);
+background: rgba(253,173,182,0.5); color: rgba(144,126,148,1);
 border: 0; border-radius: 1px;
 font-family: 'Oxygen Mono', monospace; font-size: 12pt;
 padding: 4px 0px; height: 24px;
