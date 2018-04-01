@@ -1,67 +1,103 @@
-body
-{
-}
 
-html
-{
-  background:url("../pics/bg10.jpg")no-repeat center center fixed;
-  background-size: cover;
-}
 #main
 {
-width:510px;
-height:auto;
-margin-left: 38%;
-margin-right: auto;
+	width:510px;
+	height:auto;
+	margin-left: 38%;
+	margin-right: auto;
 }
-
 
 #search
 {
-width:440px;
-height:auto;
-margin-left: 38%;
-margin-right: auto;
-margin-top:6%;
-background-color: rgba(217,178,197,0.2);
+	width:440px;
+	height:56px;
+	margin-left: 38%;
+	margin-right: auto;
+	margin-top:6%;
+	background-color: rgb(54, 48, 48);
+	border-style: solid;
+	border-width: 4px;
+	border-bottom: none;
+	border-color: rgb(155, 101, 101);
+}
+
+#search-input {
+    width: 398px;
+	height:38px;
+	margin-left:20px;
+	margin-top:8px;
+	background-color: rgb(54, 48, 48);
+	border:none;
+	font-size:32px;
+	text-align:center;
+	font-family: 'Oxygen Mono', monospace;
+	font-weight: bold;
+	color:rgb(155, 101, 101);
+}
+
+#picture
+{
+	width:440px;
+	height:200px;
+	margin-left: 38%;
+	margin-right: auto;
+	background-color: rgb(54, 48, 48);
+	background-image: url("../pics/cntr3.png");
+	border-style: solid;
+	border-width: 4px;
+	border-bottom: none;
+	border-top: none;
+	border-color: rgb(155, 101, 101);
 }
 
 #content
 {
-width:440px;
-height:auto; 
-float:left;
-background-color: rgba(217,178,197,0.2);
+	width:440px;
+	height:56px; 
+	float:left;
+	background-color: rgb(54, 48, 48);
+	border-style: solid;
+	border-width: 4px;
+	border-top: none;
+	border-color: rgb(155, 101, 101);
 }
 
 #link
 {
-text-align:left;
-padding-left:20px;
-line-height:40px;
-letter-spacing:1px;
-color: rgba(82, 98, 123, 1);
-font-size: 20px;
-text-decoration:none;
-font-family: 'Oxygen Mono', monospace;
+	text-align:left;
+	padding-left:20px;
+	line-height:48px;
+	letter-spacing:1px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+	font-family: 'Oxygen Mono', monospace;
+}
+
+a:link{
+	color: rgb(155, 101, 101);
+}
+
+a:visited{
+	color: rgb(155, 101, 101);
+}
+
+a:hover{
+	color: rgb(79, 154, 183);
 }
 
 .p{
-font-family: 'Oxygen Mono', monospace;
-font-size:64px;
-text-align:center;
-color:rgba(82, 98, 123, 1);
-
-margin-right: auto;
-margin-bottom: auto; 
-margin-top: auto;
+	font-family: 'Oxygen Mono', monospace;
+	font-size:48px;
+	font-weight: bold;
+	text-align:center;
+	color: rgb(155, 101, 101);
+	margin-right: auto;
+	margin-bottom: auto; 
+	margin-top: auto;
 }
 
-.searchbar{
-width: 400px;
-margin-left:20px;
-background: rgba(211,176,196,0.5); color: rgba(82, 98, 123, 1);
-border: 0; border-radius: 1px;
-font-family: 'Oxygen Mono', monospace; font-size: 12pt;
-padding: 4px 0px; height: 24px;
-}
+
+
+
+
