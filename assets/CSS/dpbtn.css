@@ -32,6 +32,10 @@
     width: 100px;
 	height: auto;
     z-index: 1;
+	border-color: rgb(155, 101, 101);
+	border-style: solid;
+	border-width: 4px;
+	border-top: none;
 }
 
 
