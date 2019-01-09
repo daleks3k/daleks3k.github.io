@@ -3,7 +3,6 @@ html{
 }
 
 #bg{
-	
 	background-image: url(src/pics/bg0.jpg);
 	filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -29,8 +28,6 @@ a{text-decoration: none;}
   transform: translate(-50%,-50%);
 }
 
-
-
 #search-input{
 width: 540px;
 height: 100px;
@@ -39,7 +36,7 @@ background:none;
 font-size: 32px;
 text-align: center;
 font-weight: bold;
-color: #888;	
+color: #666;	
 
 }
 
@@ -52,7 +49,7 @@ color: #888;
   background-size: cover;
   background-position: center ;
   background-repeat: no-repeat;
-  transition: 1s;
+
 }
 
 /*
@@ -70,26 +67,11 @@ div#head1:hover{
   background-color: #eee;
 }
 
-.group-links{
-  width: 470px;
-  height: 30px;
-  padding: 10px;
-  border-left: 50px solid;
-  transition: .2s;
-}
-
-.group-links:hover{background-color: #444;}
-
 a.link{
-  color: #888;
+  color: #bbb;
   font-size: 19px;
-  display: inline-block;
-  margin-right: 5px;
-  padding-left:  3px;
-  padding-right: 3px;
-  transition: .5s;
-  line-height: 30px;
   cursor: pointer;
+  transition: .5s;
 }
 
 #group1{border-color: #f44336;}
@@ -101,4 +83,58 @@ a.link{
 #group2 a:hover{color: #FFC107;}
 #group3 a:hover{color: #4CAF50;}
 #group4 a:hover{color: #2196F3;}
+
+.dropbtn {					/*	Sets the initial button formatting	*/			/* Words colour */
+  width: 540px;
+  height: 50px;
+  border:none;
+  border-left: 50px solid;
+  
+}
+
+.dropdown {  				/* makes the hover bit work?????    */
+    display: inline;
+}
+
+.dropdown:hover .dropbtn {		/*	sets hover formatting	*/
+   background-color: #666;
+   transition: 0.3s;
+}
+
+.dropdown-content { 			/* Sets up dropdown menu formatting   */
+  display:none;   
+  position: absolute;			
+  left:50px;
+  width: 470px;
+  height: 30px;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {   /* makes the dropdown menu appear  */
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
