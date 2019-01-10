@@ -22,7 +22,7 @@ a{text-decoration: none;}
   width: 540px;
   height: 300px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -34,7 +34,6 @@ a{text-decoration: none;}
   background:none;
   font-size: 32px;
   text-align: center;
-  font-weight: bold;
   color: #666;	
 }
 
@@ -61,31 +60,31 @@ div#head1:hover{
   height: 150px;
   position: absolute;
   bottom: 50px;
-  background-color: #eee;
 }
 
 a.link{
-  color: #bbb;
+  color: #3c3c3ccc;
   font-size: 19px;
   cursor: pointer;
-  transition: .5s;
+  transition: .2s;
 }
 
-#group1{border-color: #f44336;}
-#group2{border-color: #FFC107;}
-#group3{border-color: #4CAF50;}
-#group4{border-color: #2196F3;}
+#group1{border-color: #f44336b3;}
+#group2{border-color: #FFC107b3;}
+#group3{border-color: #4CAF50b3;}
+#group4{border-color: #2196F3b3;}
 
-#group1 a:hover{color: #f44336;}
-#group2 a:hover{color: #FFC107;}
-#group3 a:hover{color: #4CAF50;}
-#group4 a:hover{color: #2196F3;}
+#group1 a:hover{color: #f44336b3;}
+#group2 a:hover{color: #FFC107b3;}
+#group3 a:hover{color: #4CAF50b3;}
+#group4 a:hover{color: #2196F3b3;}
 
 .dropbtn {					/*	Sets the initial button formatting	*/			/* Words colour */
   width: 540px;
   height: 50px;
   border:none;
   border-left: 50px solid; 
+  background-color: #ebedf966;
 }
 
 .dropdown {  				/* makes the hover bit work?????    */
@@ -93,8 +92,8 @@ a.link{
 }
 
 .dropdown:hover .dropbtn {		/*	sets hover formatting	*/
-  background-color: #666;
-  transition: 0.3s;
+  background-color: #616469b3;
+  transition: 0.2s;
 }
 
 .dropdown-content { 			/* Sets up dropdown menu formatting   */
