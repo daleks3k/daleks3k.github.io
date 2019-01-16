@@ -3,9 +3,14 @@ html{
 }
 
 #bg{
-	background-image: url(src/pics/bg0.jpg);
+	background-image: url(src/pics/bg3.jpg);
+	/*
 	filter: blur(3px);
     -webkit-filter: blur(3px);
+	/*
+	transform: scale(1.1);
+	*/
+	
 	position: absolute;
     top: 0px;
     left: 0px;
@@ -34,7 +39,7 @@ a{text-decoration: none;}
   background:none;
   font-size: 32px;
   text-align: center;
-  color: #666;	
+  color: #1a1919;	
 }
 
 #head1{
@@ -42,9 +47,9 @@ a{text-decoration: none;}
   height: 100px;
   position: absolute;
   bottom: 200px;
-  background-image: url(src/pics/bg0.jpg);
+  background-image: url(src/pics/bg3.jpg);
   background-size: cover;
-  background-position: center ;
+  background-position: center -60px ;
   background-repeat: no-repeat;
 }
 
@@ -63,7 +68,7 @@ div#head1:hover{
 }
 
 a.link{
-  color: #3c3c3ccc;
+  color: #1a1919cc;
   font-size: 19px;
   cursor: pointer;
   transition: .2s;
@@ -92,7 +97,7 @@ a.link{
 }
 
 .dropdown:hover .dropbtn {		/*	sets hover formatting	*/
-  background-color: #616469b3;
+  background-color: #555556e6;
   transition: 0.2s;
 }
 
