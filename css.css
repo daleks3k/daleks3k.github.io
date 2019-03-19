@@ -99,8 +99,6 @@ a:visited{
 	color: #323334;
 }
 
-
-
 #group1 a:hover{color: #f44336b3;}
 #group2 a:hover{color: #FFC107b3;}
 #group3 a:hover{color: #4CAF50b3;}
@@ -120,8 +118,6 @@ a:visited{
 a:hover{
 	color: #4F9AB6;
 }
-
-
 
 #group1{border-color: #f44336b3;}
 #group2{border-color: #FFC107b3;}
@@ -158,8 +154,6 @@ a:hover{
   height: 30px;
   padding: 10px;
 }
-
-
 
 .dropdown:hover .dropdown-content {   /* makes the dropdown menu appear  *//*
   display: inline;
