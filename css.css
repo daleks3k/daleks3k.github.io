@@ -39,7 +39,7 @@ a{text-decoration: none;}
   background:none;
   font-size: 32px;
   text-align: center;
-  color: #1a1919;	
+  color:#323334;
 }
 
 #head1{
@@ -65,14 +65,61 @@ div#head1:hover{
   height: 150px;
   position: absolute;
   bottom: 50px;
+  background-color: rgba(235, 237, 249, 0.4);
+
 }
 
 a.link{
-  color: #1a1919cc;
+  color: #blue;
   font-size: 19px;
   cursor: pointer;
   transition: .2s;
+  color:#323334;
+  padding: 3px;
+  line-height:50px;
 }
+
+.line{
+  width: 490px;
+  height: 50px;
+  border-left: 50px solid; 
+}
+
+#group1{border-color: #f44336b3;}
+#group2{border-color: #FFC107b3;}
+#group3{border-color: #4CAF50b3;}
+#group4{border-color: #2196F3b3;}
+
+
+a:link{
+	color: #323334;
+}
+
+a:visited{
+	color: #323334;
+}
+
+#group1 a:hover{color: #f44336b3;}
+#group2 a:hover{color: #FFC107b3;}
+#group3 a:hover{color: #4CAF50b3;}
+#group4 a:hover{color: #2196F3b3;}
+
+
+/*
+
+a:link{
+	color: rgb(155, 101, 101);
+}
+
+a:visited{
+	color: rgb(155, 101, 101);
+}
+
+a:hover{
+	color: #4F9AB6;
+}
+
+
 
 #group1{border-color: #f44336b3;}
 #group2{border-color: #FFC107b3;}
@@ -84,7 +131,7 @@ a.link{
 #group3 a:hover{color: #4CAF50b3;}
 #group4 a:hover{color: #2196F3b3;}
 
-.dropbtn {					/*	Sets the initial button formatting	*/			/* Words colour */
+.dropbtn {					/*	Sets the initial button formatting				/* Words colour */ /*
   width: 540px;
   height: 50px;
   border:none;
@@ -92,16 +139,16 @@ a.link{
   background-color: #ebedf966;
 }
 
-.dropdown {  				/* makes the hover bit work?????    */
+.dropdown {  				/* makes the hover bit work?????    */ /*
   display: inline;
 }
 
-.dropdown:hover .dropbtn {		/*	sets hover formatting	*/
+.dropdown:hover .dropbtn {		/*	sets hover formatting	*//*
   background-color: #555556e6;
   transition: 0.2s;
 }
 
-.dropdown-content { 			/* Sets up dropdown menu formatting   */
+.dropdown-content { 			/* Sets up dropdown menu formatting   *//*
   display:none;   
   position: absolute;			
   left:50px;
@@ -110,16 +157,14 @@ a.link{
   padding: 10px;
 }
 
-.dropdown:hover .dropdown-content {   /* makes the dropdown menu appear  */
+
+
+.dropdown:hover .dropdown-content {   /* makes the dropdown menu appear  *//*
   display: inline;
 }
 
 
-
-
-
-
-
+*/
 
 
 
