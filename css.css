@@ -65,7 +65,7 @@ div#head1:hover{
   height: 150px;
   position: absolute;
   bottom: 50px;
-  background-color: rgba(235, 237, 249, 0.4);
+  background-color: rgba(111, 116, 118, 0.5);
 
 }
 
@@ -74,7 +74,7 @@ a.link{
   font-size: 19px;
   cursor: pointer;
   transition: .2s;
-  color:#323334;
+  color:#0c0d0d;
   padding: 3px;
   line-height:50px;
 }
@@ -98,6 +98,8 @@ a:link{
 a:visited{
 	color: #323334;
 }
+
+
 
 #group1 a:hover{color: #f44336b3;}
 #group2 a:hover{color: #FFC107b3;}
