@@ -1,9 +1,11 @@
 html{
-  font-family: sans-serif;
+  font-family: "sans-serif";
+  
+  
 }
 
 #bg{
-	background-image: url(src/pics/bg3.jpg);
+	background-image: url(src/pics/bg4.jpg);
 	/*
 	filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -21,10 +23,24 @@ html{
     background-size: cover;
 }
 
-a{text-decoration: none;}
+a{
+	text-decoration: none;
+	font-family: 'Noto Sans JP', arial, sans-serif;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 42px;
+	text-align: center;
+	color: #323334;
+	font-weight: 400;
+	line-height: 1;
+	font-size: 42px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
 
 #main{	
-  width: 540px;
+  width: 440px;
   height: 300px;
   position: absolute;
   top: 40%;
@@ -33,7 +49,7 @@ a{text-decoration: none;}
 }
 
 #search-input{
-  width: 540px;
+  width: 440px;
   height: 100px;
   border: none;
   background:none;
@@ -43,11 +59,12 @@ a{text-decoration: none;}
 }
 
 #head1{
-  width: 540px;
+  width: 440px;
   height: 100px;
   position: absolute;
   bottom: 200px;
-  background-image: url(src/pics/bg3.jpg);
+  /*background-image: url(src/pics/bg4.jpg); */
+  
   background-size: cover;
   background-position: center -60px ;
   background-repeat: no-repeat;
@@ -61,12 +78,11 @@ div#head1:hover{
 */
 
 #body{
-  width: 540px;
+  width: 440px;
   height: 150px;
   position: absolute;
   bottom: 50px;
-  background-color: rgba(111, 116, 118, 0.5);
-
+  background-color: rgba(126, 59, 69, 0.3 );
 }
 
 a.link{
@@ -80,14 +96,14 @@ a.link{
 }
 
 .line{
-  width: 490px;
+  width: 400px;
   height: 50px;
-  border-left: 50px solid; 
+  border-left: 5px solid; 
 }
 
-#group1{border-color: #f44336b3;}
-#group2{border-color: #FFC107b3;}
-#group3{border-color: #4CAF50b3;}
+#group1{border-color: #54203Eb3;}
+#group2{border-color: #54203Eb3;}
+#group3{border-color: #54203Eb3;}
 #group4{border-color: #2196F3b3;}
 
 
@@ -99,9 +115,9 @@ a:visited{
 	color: #323334;
 }
 
-#group1 a:hover{color: #f44336b3;}
-#group2 a:hover{color: #FFC107b3;}
-#group3 a:hover{color: #4CAF50b3;}
+#group1 a:hover{color: #54203Eb3;}
+#group2 a:hover{color: #54203Eb3;}
+#group3 a:hover{color: #54203Eb3;}
 #group4 a:hover{color: #2196F3b3;}
 
 
