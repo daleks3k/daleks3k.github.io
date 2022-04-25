@@ -19,16 +19,7 @@ h1{
 }
 
 #bg{
-	/*background-image: url(src/pics/bg4.jpg);
-	/*
-	filter: blur(3px);
-    -webkit-filter: blur(3px);
-	/*
-	transform: scale(1.1);
-	*/
-	
 	background-color: #335a84;
-	
 	position: absolute;
     top: 0px;
     left: 0px;
