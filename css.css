@@ -37,7 +37,6 @@ h1{
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
-  /*background-color: rgba(126, 59, 69);*/
 }
 
 #search-input{
@@ -55,27 +54,17 @@ h1{
   height: 100px;
   position: absolute;
   top: 100px;
-  /*bottom: 200px;
-  /*background-image: url(src/pics/bg4.jpg); 
-  background-color: #ffffff30; */
   background-size: cover;
   background-position: center -60px ;
   background-repeat: no-repeat;
 }
-
-/*
-div#head1:hover{
-  height: 180px;
-  background-position: center -80px;
-}
-*/
 
 #body{
   width: 440px;
   height: 100px;
   position: absolute;
   top: 200px;
-  /*background-color: #ffffff30; */
+  
 }
 
 .sidebar {
@@ -106,8 +95,6 @@ a.link{
 .line{
   width: 400px;
   height: 75px;
-  /*border-left: 5px solid; 
-	*/
 }
 
 #group1{border-color: #54203Eb3;}
@@ -128,67 +115,6 @@ a:visited{
 #group2 a:hover{color: #1caaa7b3;}
 #group3 a:hover{color: #1caaa7b3;}
 #group4 a:hover{color: #1caaa7b3;}
-
-
-/*
-
-a:link{
-	color: rgb(155, 101, 101);
-}
-
-a:visited{
-	color: rgb(155, 101, 101);
-}
-
-a:hover{
-	color: #4F9AB6;
-}
-
-#group1{border-color: #f44336b3;}
-#group2{border-color: #FFC107b3;}
-#group3{border-color: #4CAF50b3;}
-#group4{border-color: #2196F3b3;}
-
-#group1 a:hover{color: #f44336b3;}
-#group2 a:hover{color: #FFC107b3;}
-#group3 a:hover{color: #4CAF50b3;}
-#group4 a:hover{color: #2196F3b3;}
-
-.dropbtn {					/*	Sets the initial button formatting				/* Words colour */ /*
-  width: 540px;
-  height: 50px;
-  border:none;
-  border-left: 50px solid; 
-  background-color: #ebedf966;
-}
-
-.dropdown {  				/* makes the hover bit work?????    */ /*
-  display: inline;
-}
-
-.dropdown:hover .dropbtn {		/*	sets hover formatting	*//*
-  background-color: #555556e6;
-  transition: 0.2s;
-}
-
-.dropdown-content { 			/* Sets up dropdown menu formatting   *//*
-  display:none;   
-  position: absolute;			
-  left:50px;
-  width: 470px;
-  height: 30px;
-  padding: 10px;
-}
-
-.dropdown:hover .dropdown-content {   /* makes the dropdown menu appear  *//*
-  display: inline;
-}
-
-
-*/
-
-
-
 
 
 
