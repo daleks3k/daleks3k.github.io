@@ -13,29 +13,89 @@
 	
 <body >
 
-  <div id="bg"></div>
+  <div class="bg"></div>
   
-  <div id="main">
-    <div id="head1">
-	  <div id="search">
-	  <h1>こんにちは</h1>
-	  </div>	
+  <div class="main">
+  
+	<div class="head1"> 
+        <div id="clock"></div>
 	</div>
+ 
+	 <div class="welcome">
+		<h1>こんにちは</h1>
+	 </div>	
 	
-	<div id="body">
-	<div class="line" id="group1">
+	<div class="body">
+		<div class="line" id="group1">
 		  <a class="link" href="http://www.facebook.com"> fb </a>
   		  <a class="link" href="http://www.youtube.com/feed/subscriptions"> yt </a>
 		  <a class="link" href="https://mail.google.com/mail/u/0/?shva=1#inbox"> gmail </a>
 		  <a class="link" href="http://boards.4chan.org/wg/"> /wg/ </a>
 		</div>
 	</div>
-  
-  <div class="sidebar" ></div>
-  
+	
+	<div class="sidebar" ></div>
+
   </div>
   
 </body>
+
+    <script>
+        var clock=document.getElementById("clock");
+        function updateClock(){
+            var date=new Date();
+            date.setHours(date.getHours()+0)
+            var hours = date.getHours().toString();
+            var minutes = date.getMinutes().toString();
+            var seconds = date.getSeconds().toString();
+            if (hours.length==1){
+                hours="0"+hours
+            }
+            if (minutes.length==1){
+                minutes="0"+minutes
+            }
+            if (seconds.length==1){
+                seconds="0"+seconds
+            }
+            clock.innerHTML=hours+":"+minutes+":"+seconds;
+        }
+        updateClock();
+        setInterval(updateClock,1000);
+    </script>
 	
 </html>
 
+
+<!--
+	
+	
+	<div class="sidebar" ></div>
+
+
+
+
+
+     <script>
+        var clock=document.getElementById("clock");
+        function updateClock(){
+            var date=new Date();
+            date.setHours(date.getHours()+0)
+            var hours = date.getHours().toString();
+            var minutes = date.getMinutes().toString();
+            var seconds = date.getSeconds().toString();
+            if (hours.length==1){
+                hours="0"+hours
+            }
+            if (minutes.length==1){
+                minutes="0"+minutes
+            }
+            if (seconds.length==1){
+                seconds="0"+seconds
+            }
+            clock.innerHTML=hours+":"+minutes+":"+seconds;
+        }
+        updateClock();
+        setInterval(updateClock,1000);
+    </script>
+	
+	-->

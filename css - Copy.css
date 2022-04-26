@@ -1,0 +1,132 @@
+html{
+  font-family: "sans-serif"; 
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Oxygen Mono', monospace;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 42px;
+	text-align: left;
+	color: #d1cfdd;
+	font-weight: 400;
+	line-height: 1;
+	font-size: 42px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#bg{
+	background-color: #335a84;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{	
+  width: 640px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#search-input{
+  width: 440px;
+  height: 100px;
+  border: none;
+  background:none;
+  font-size: 32px;
+  text-align: center;
+  color:#BFBFBF;
+}
+
+#head1{
+  width: 440px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  background-size: cover;
+  background-position: center -60px ;
+  background-repeat: no-repeat;
+}
+
+#body{
+  width: 440px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  
+}
+
+.sidebar {
+	border-style: solid;
+	border-width: 4px;
+	border-color: #03345a;
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	left: 440px;
+	background-color: #FFFFFF;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(src/pics/car.gif);
+}
+
+a.link{
+  color: #blue;
+  font-size: 19px;
+  cursor: pointer;
+  transition: .2s;
+  color:#0c0d0d;
+  padding: 3px;
+  line-height:50px;
+}
+
+.line{
+  width: 400px;
+  height: 75px;
+}
+
+#group1{border-color: #54203Eb3;}
+#group2{border-color: #54203Eb3;}
+#group3{border-color: #54203Eb3;}
+#group4{border-color: #2196F3b3;}
+
+
+a:link{
+	color: #aeabc4;
+}
+
+a:visited{
+	color: #aeabc4;
+}
+
+#group1 a:hover{color: #1caaa7b3;}
+#group2 a:hover{color: #1caaa7b3;}
+#group3 a:hover{color: #1caaa7b3;}
+#group4 a:hover{color: #1caaa7b3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

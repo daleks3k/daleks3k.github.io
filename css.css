@@ -1,80 +1,84 @@
 html{
-  font-family: "sans-serif"; 
+	font-family: "sans-serif"; 
 }
 
-a{
+a{  							/* generic link formatting */
 	text-decoration: none;
 	font-family: 'Oxygen Mono', monospace;
 	font-weight: 400;
 }
 
-h1{
-	font-size: 42px;
-	text-align: left;
-	color: #d1cfdd;
+h1{							/*set text setting for main heading japanese */
+	color: #e0eeff;
 	font-weight: 400;
 	line-height: 1;
-	font-size: 42px;
+	font-size: 50px;
 	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-#bg{
-	background-color: #335a84;
+.bg{ 							/*set up background color */
+	background-color: #779dca;
 	position: absolute;
     top: 0px;
     left: 0px;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#main{	
-  width: 640px;
-  height: 300px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.main{							/*set up main window block */
+	width: 718px;
+	height: 490px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
 }
 
-#search-input{
-  width: 440px;
-  height: 100px;
-  border: none;
-  background:none;
-  font-size: 32px;
-  text-align: center;
-  color:#BFBFBF;
+.head1{ 	 					/*set up block for heading and clock */
+	background-color: #2f7aa280;
+	width: 308px;
+	height: 40px;
+	left: 410px;
+	position: absolute;
+  	font-family: 'Oxygen Mono', monospace;
+	font-weight: 400;
+	font-size: 20px;
 }
 
-#head1{
-  width: 440px;
-  height: 100px;
-  position: absolute;
-  top: 100px;
-  background-size: cover;
-  background-position: center -60px ;
-  background-repeat: no-repeat;
+#clock{  						/*set up clock text formatting */
+	text-align: right;
+	position: relative;
+	top: 8px;
+	right: 5px;
+	color: #b4c4d9;
 }
 
-#body{
-  width: 440px;
-  height: 100px;
-  position: absolute;
-  top: 200px;
-  
+.welcome{  						 /*set up welcome heading block */
+	width: 400px;
+	height: 100px;
+	top: 155px;
+	position: absolute;
 }
 
-.sidebar {
+.body{ 							 /*set up main block for links */
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	top: 255px;
+}
+
+.sidebar {  						/*set up sidebar image */
 	border-style: solid;
 	border-width: 4px;
 	border-color: #03345a;
 	width: 300px;
-	height: 450px;
+	height: 442px;
 	position: absolute;
-	left: 440px;
+	left: 410px;
+	top: 40px;
 	background-color: #FFFFFF;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -82,19 +86,28 @@ h1{
 	background-image: url(src/pics/car.gif);
 }
 
+
+/*the rest is link formatting */
+
 a.link{
-  color: #blue;
-  font-size: 19px;
-  cursor: pointer;
-  transition: .2s;
-  color:#0c0d0d;
-  padding: 3px;
-  line-height:50px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: .2s;
+	padding: 3px;
+	line-height:50px;
 }
 
 .line{
-  width: 400px;
-  height: 75px;
+	width: 400px;
+	height: 35px;
+}
+
+a:link{
+	color: #b4c4d9;
+}
+
+a:visited{
+	color: #b4c4d9;
 }
 
 #group1{border-color: #54203Eb3;}
@@ -102,19 +115,10 @@ a.link{
 #group3{border-color: #54203Eb3;}
 #group4{border-color: #2196F3b3;}
 
-
-a:link{
-	color: #aeabc4;
-}
-
-a:visited{
-	color: #aeabc4;
-}
-
-#group1 a:hover{color: #1caaa7b3;}
-#group2 a:hover{color: #1caaa7b3;}
-#group3 a:hover{color: #1caaa7b3;}
-#group4 a:hover{color: #1caaa7b3;}
+#group1 a:hover{color: #336ea2;}
+#group2 a:hover{color: #336ea2;}
+#group3 a:hover{color: #336ea2;}
+#group4 a:hover{color: #336ea2;}
 
 
 
