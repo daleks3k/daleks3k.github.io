@@ -9,17 +9,16 @@ a{  							/* generic link formatting */
 }
 
 h1{							/*set text setting for main heading japanese */
-	color: #e0eeff;
+	color: #8DA6A1;
 	font-weight: 400;
 	line-height: 1;
 	font-size: 50px;
 	font-family: 'Noto Sans JP', sans-serif;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 130px;
 }
 
 .bg{ 							/*set up background color */
-	background-color: #779dca;
+	background-color: #5e5455;
 	position: absolute;
     top: 0px;
     left: 0px;
@@ -29,37 +28,37 @@ h1{							/*set text setting for main heading japanese */
 
 .main{							/*set up main window block */
 	width: 718px;
-	height: 490px;
+	height: 360px;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
 }
 
 .head1{ 	 					/*set up block for heading and clock */
-	background-color: #2f7aa280;
-	width: 308px;
+	background-color: ;
+	width: 300px;
 	height: 40px;
-	left: 410px;
 	position: absolute;
+	left: 410px;
   	font-family: 'Oxygen Mono', monospace;
 	font-weight: 400;
 	font-size: 20px;
 }
 
 #clock{  						/*set up clock text formatting */
-	text-align: right;
+	text-align: left;
 	position: relative;
 	top: 8px;
 	right: 5px;
-	color: #b4c4d9;
+	color: #8DA6A1;
 }
 
 .welcome{  						 /*set up welcome heading block */
 	width: 400px;
 	height: 100px;
-	top: 155px;
+	top: 20px;
 	position: absolute;
 }
 
@@ -67,23 +66,23 @@ h1{							/*set text setting for main heading japanese */
 	width: 400px;
 	height: 100px;
 	position: absolute;
-	top: 255px;
+	top: 230px;
 }
 
 .sidebar {  						/*set up sidebar image */
-	border-style: solid;
+	/*border-style: solid;
 	border-width: 4px;
 	border-color: #03345a;
+	*/
 	width: 300px;
-	height: 442px;
+	height: 430px;
 	position: absolute;
 	left: 410px;
 	top: 40px;
-	background-color: #FFFFFF;
-	background-position: center center;
+	background-position: 69% 0%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(src/pics/car.gif);
+	background-image: url(src/pics/sunsetdragon.gif);
 }
 
 
@@ -103,22 +102,17 @@ a.link{
 }
 
 a:link{
-	color: #b4c4d9;
+	color: #8DA6A1;
 }
 
 a:visited{
-	color: #b4c4d9;
+	color: #8DA6A1;
 }
 
-#group1{border-color: #54203Eb3;}
-#group2{border-color: #54203Eb3;}
-#group3{border-color: #54203Eb3;}
-#group4{border-color: #2196F3b3;}
+a:hover{
+	color: #F2A9A2;
+}
 
-#group1 a:hover{color: #336ea2;}
-#group2 a:hover{color: #336ea2;}
-#group3 a:hover{color: #336ea2;}
-#group4 a:hover{color: #336ea2;}
 
 
 
