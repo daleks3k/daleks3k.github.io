@@ -9,7 +9,7 @@ a{  							/* generic link formatting */
 }
 
 h1{							/*set text setting for main heading japanese */
-	color: #8DA6A1;
+	color: #95B1AB;
 	font-weight: 400;
 	line-height: 1;
 	font-size: 50px;
@@ -52,7 +52,7 @@ h1{							/*set text setting for main heading japanese */
 	position: relative;
 	top: 8px;
 	right: 5px;
-	color: #8DA6A1;
+	color: #95B1AB;
 }
 
 .welcome{  						 /*set up welcome heading block */
@@ -70,10 +70,10 @@ h1{							/*set text setting for main heading japanese */
 }
 
 .sidebar {  						/*set up sidebar image */
-	/*border-style: solid;
-	border-width: 4px;
-	border-color: #03345a;
-	*/
+	border-style: solid;
+	border-width: 3px;
+	border-color: #95B1AB;
+	
 	width: 300px;
 	height: 430px;
 	position: absolute;
@@ -102,11 +102,11 @@ a.link{
 }
 
 a:link{
-	color: #8DA6A1;
+	color: #95B1AB;
 }
 
 a:visited{
-	color: #8DA6A1;
+	color: #95B1AB;
 }
 
 a:hover{
