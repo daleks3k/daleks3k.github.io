@@ -84,10 +84,7 @@ h1{							/*set text setting for main heading japanese */
 	background-image: url(src/pics/sunsetdragon.gif);
 }
 
-
-/*the rest is link formatting */
-
-a.link{
+a.link{							/*the rest is link formatting */
 	font-size: 20px;
 	cursor: pointer;
 	transition: .2s;
